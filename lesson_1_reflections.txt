@@ -1,0 +1,45 @@
+5-Mar-16
+Q1) How did viewing a diff between two versions of a file help you see the bug 
+that was introduced?
+A) Using FC on windows on 2 versions of a file was really tedious 
+ and called for high level of attention. Very prone to mistakes and misses.
+ Finding line number was even more tedious and time consuming.
+ 
+Q2) How could having easy access to the entire history of a file make you a more 
+ efficient programmer in the long term?
+A) Lot of time saving will happen. Changes will be easy to track.
+  Fall back to old versions will be easy.
+  Can do lots of experiments or room for creativity as there will be no worry 
+  of UNDO.
+ 
+3) What do you think are the pros and cons of manually choosing when to create 
+a commit, like you do in Git, vs having versions automatically saved, like 
+Google Docs does?
+A) Pros: i) Have control on when to commit and avoid having too many auto saved 
+				versions.
+				ii) Have provision to put comments, which helps to track what the commit was for.
+	 Cons: i) If manual commit is forgotten, and code is left unattended for some time/day,
+				then it is easy to forgot the changes done.
+				ii) If system crashes and changes made were not commited then all changes since
+					last commit will be lost.
+					
+4) Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+A) Documents are fairly independant whereas coding has inter dependancies spread
+in multiple lines.
+
+5) How can you use the commands git log and git diff to view the history of files?
+A) With GIT LOG, we can view all the commits with their comments and IDs. 
+Use the comments to find the commit that we want to check. Use this commit ID and 
+its previous versions ID and use it in git command: GIT DIFF ID1 ID2 to see the 
+difference the history.
+
+6-Mar-16
+6) How might using version control make you more confident to make changes that could break something?
+A)Using VC, I can revert to previous version and check if it was working fine or 
+was the bug introduced there. When bug is found it can easily be fixed.
+
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+A) I want to use Git to start developing android applications.
+

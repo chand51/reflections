@@ -1,0 +1,4 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+A) On initializing a repository, .git directory is created. it stores meta data about versioning.
+Without init, there won't be repository but just directories.
+
