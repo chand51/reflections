@@ -2,3 +2,7 @@
 A) On initializing a repository, .git directory is created. it stores meta data about versioning.
 Without init, there won't be repository but just directories.
 
+2) How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+A) Staging area is where files are tracked in Git. It is a stage before commit.
+In Working area, files are present. In Repository, files are versioned.
