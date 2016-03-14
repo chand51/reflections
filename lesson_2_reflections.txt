@@ -6,3 +6,29 @@ Without init, there won't be repository but just directories.
 What value do you think it offers?
 A) Staging area is where files are tracked in Git. It is a stage before commit.
 In Working area, files are present. In Repository, files are versioned.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+A) adding one file at a time to staging, and checking with status after each commit, 
+
+4) What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+A) When there is a need to do some experimental work, or parallel independant 
+development. etc, bug fixing verses feature development, branching will help.
+Branches helps in letting experiment new things which can be accepted or discarded 
+without impacting the main stream.
+
+5) How do the diagrams help you visualize the branch structure?
+A) With diagrams, the entire tree information can be visualized, which helps in 
+easy understanding. Branching and merging can be done with ease.
+
+6) What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+A) My merging did not work, i kept on getting below error, even if i tried all 
+instructions in Instructor Notes:
+Auto-merging game.js
+CONFLICT (content): Merge conflict in game.js
+Automatic merge failed; fix conflicts and then commit the result.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A) WHen there is no conflict, auto merge is a useful feature.
+When conflict occurs at a place, manual inspection is required to resolve the issue.
