@@ -3,3 +3,15 @@ A) When there is a need to collaborate work from many members.
    If the work location changes often. 
    Working on remote desktop.
    
+2) Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+A) Because I may have my version being updated and I do not want the new feature 
+that were added on remote repo. That might break my code or bring conflict.
+Or my changes would be overridden.
+
+3) Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+A) Banches is done on same repository. To work on some bug fix or features.
+   Clones makes a copy of a remote repository onto a local repository. 
+   Fork is like copy but concept of GitHub. It makes a copy of remote repo onto
+   remote machine. 
